@@ -1,13 +1,14 @@
 import React from "react";
+import ImgProd from "../components/ImgProd";
 
 const Home = () => {
 
     return (
-        <div className="pt-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className=" flex justify-center items-center pt-32 ">
         {/* Tarjeta 1 */}
-        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="m-4 inline-block mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <img className="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+            <img className="p-8 rounded-t-lg" src={ImgProd.AmarokV6Hig} alt="product image" />
           </a>
           <div className="px-5 pb-5">
             <a href="#">
@@ -27,13 +28,13 @@ const Home = () => {
             </div>
             <div className="flex items-center justify-between">
               <span className="text-3xl font-bold text-gray-900 dark:text-white">£10.009</span>
-              <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+              <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Ver</a>
             </div>
           </div>
         </div>
-        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="m-4 inline-block mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <img className="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+            <img className="p-8 rounded-t-lg" src={ImgProd.AmarokV6Ext} alt="product image" />
           </a>
           <div className="px-5 pb-5">
             <a href="#">
@@ -53,13 +54,13 @@ const Home = () => {
             </div>
             <div className="flex items-center justify-between">
               <span className="text-3xl font-bold text-gray-900 dark:text-white">£10.009</span>
-              <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+              <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Ver</a>
             </div>
           </div>
         </div>
-        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="m-4 inline-block mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <img className="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+            <img className="p-8 rounded-t-lg" src={ImgProd.AmarokV6Mot} alt="product image" />
           </a>
           <div className="px-5 pb-5">
             <a href="#">
@@ -79,7 +80,7 @@ const Home = () => {
             </div>
             <div className="flex items-center justify-between">
               <span className="text-3xl font-bold text-gray-900 dark:text-white">£10.009</span>
-              <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+              <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Ver</a>
             </div>
           </div>
         </div>
