@@ -1,9 +1,11 @@
 import React from "react";
 import ImgProd from "../components/ImgProd";
+import SecondBan from "../components/SecondBan";
 
 const Home = () => {
 
     return (
+      <div>
         <div className=" flex justify-center items-center pt-32 ">
         {/* Tarjeta 1 */}
         <div className="m-4 inline-block mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -13,7 +15,7 @@ const Home = () => {
           <div className="px-5 pb-5">
             <a href="#">
               <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                vw-Amarok-v6-highline mod 2021
               </h5>
             </a>
             <div className="flex items-center mt-2.5 mb-5">
@@ -39,7 +41,7 @@ const Home = () => {
           <div className="px-5 pb-5">
             <a href="#">
               <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                vw-Amarok-v6-Extreme, mod 2024
               </h5>
             </a>
             <div className="flex items-center mt-2.5 mb-5">
@@ -65,7 +67,7 @@ const Home = () => {
           <div className="px-5 pb-5">
             <a href="#">
               <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                vw-Amarok-motion, mod 2023
               </h5>
             </a>
             <div className="flex items-center mt-2.5 mb-5">
@@ -84,6 +86,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+        </div>
+        <SecondBan />
         </div>
 
     );

@@ -1,0 +1,14 @@
+.second-banner .skew-box {
+    width: 25px; /* Línea delgada */
+    height: 100px; /* Ocupa toda la altura del banner */
+    background-color: rgb(239, 15, 15); /* Color blanco para los rasguños */
+    clip-path: polygon(105% 0, 0 0%, 100% 100%); /* Da la forma triangular al final */
+    position: absolute;
+    z-index: 0;
+    transform: skew(-28deg);
+  }
+  
+  /* Para hacer que el contenedor del banner tenga un max-width del 40% */
+  .second-banner {
+    width: 40%;
+  }
