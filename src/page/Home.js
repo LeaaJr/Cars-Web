@@ -1,6 +1,7 @@
 import React from "react";
 import ImgProd from "../components/ImgProd";
 import SecondBan from "../components/SecondBan";
+import SecGalery from "../components/SecGalery";
 
 const Home = () => {
 
@@ -88,6 +89,7 @@ const Home = () => {
         </div>
         </div>
         <SecondBan />
+        <SecGalery />
         </div>
 
     );
