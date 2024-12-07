@@ -1,7 +1,6 @@
 import './App.css';
 import NavBar  from './components/Navbar';
 import Banner from './components/Banner';
-import SectionOne from './components/SectionOne';
 import Home from './page/Home';
 
 
@@ -11,7 +10,6 @@ function App() {
       
         <NavBar />
         <Banner />
-        <SectionOne />
         <Home />
 
       </div>

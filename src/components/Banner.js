@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-const ImgUrlone = 'https://t3.ftcdn.net/jpg/03/24/10/98/240_F_324109801_KcQvtJxmiu2mUFZnfqu1Kk7Nt8Oa6WUG.jpg'
-const ImgUrltwo = 'https://t4.ftcdn.net/jpg/09/24/89/77/360_F_924897733_ilds6gCtaeGRy3ppVvoWJoYBZAdnsxEM.webp'
-const ImgUrlthree = 'https://t3.ftcdn.net/jpg/03/82/80/26/360_F_382802685_bI69g1DEnmyrMXotMZ49pfh1VhRUBDdc.webp'
+const ImgUrlone = 'https://matassieimperiale.com.ar/postventa/img/yocuidomivw.png'
+const ImgUrltwo = 'https://www.alravw.com/files/modelos/1724164246_amarok4.jpg'
+const ImgUrlthree = 'https://assets.volkswagen.com/is/image/volkswagenag/volkswagen-amarok_stage_montana-todoterreno_16x9_2560x1440_jun-2023-1?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTI0MDAmaGVpPTEzNTAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmYjFlMQ=='
 
 const Banner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,7 +17,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[500px] banner-main"> {/* Clase específica para el banner */}
+    <div className="relative w-full h-[730px] banner-main "> {/* Clase específica para el banner */}
       <div className="absolute inset-0 w-full h-full bg-cover bg-center overflow-hidden">
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -28,7 +28,7 @@ const Banner = () => {
               <img
                 src={img}
                 alt={`Slide ${index}`}
-                className="object-cover w-full h-full"
+                className=" object-cover w-full h-full brightness-75"
               />
             </div>
           ))}

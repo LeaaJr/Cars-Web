@@ -1,12 +1,16 @@
 import React from "react";
 import ImgProd from "../components/ImgProd";
-import SecondBan from "../components/SecondBan";
-import SecGalery from "../components/SecGalery";
+import SecGalery from "../Sections/SecGalery";
+import SecGaleryTwo from "../Sections/SecGaleryTwo";
+import SectionOne from '../Sections/SectionOne';
+import SectionTwo from "../Sections/SectionTwo";
+import SectionThree from "../Sections/SectionThree";
 
 const Home = () => {
 
     return (
       <div>
+        <SectionOne />
         <div className=" flex justify-center items-center pt-32 ">
         {/* Tarjeta 1 */}
         <div className="m-4 inline-block mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -88,8 +92,10 @@ const Home = () => {
           </div>
         </div>
         </div>
-        <SecondBan />
+        <SectionTwo />
         <SecGalery />
+        <SectionThree />
+        <SecGaleryTwo />
         </div>
 
     );

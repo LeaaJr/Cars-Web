@@ -1,5 +1,5 @@
 import React from "react";
-import ImgProd from "./ImgProd";
+import ImgProd from "../components/ImgProd";
 
 
 const SecGalery = () => {

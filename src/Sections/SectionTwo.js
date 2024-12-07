@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Amarok from '../img/-vw-amarok-v6-extreme.webp';  // Asegúrate de que la ruta esté correcta
-import '../styles/SecondBan.css'
+import ImgProd from "../components/ImgProd";
+import '../styles/SectionTwo.css'
 
 
 const SecondBan = () => {
@@ -31,7 +31,7 @@ const SecondBan = () => {
             scrolling ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
           style={{
-            backgroundImage: `url(${Amarok})`,
+            backgroundImage: `url(${ImgProd.AmarokV6Ext})`,
           }}
         >
           {/* Aquí puedes agregar las líneas de rasguño si las necesitas */}
