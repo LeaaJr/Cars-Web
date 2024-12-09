@@ -1,0 +1,13 @@
+/* En tu archivo CSS, por ejemplo, styles.css */
+.img-parallax {
+    @apply w-[250px] aspect-[1/1] object-cover transition-transform duration-500 ease-in-out;
+    clip-path: inset(0 var(--_f) 0 0 round var(--r));
+    transform: perspective(400px) rotateY(var(--_a));
+    object-fit: contain;
+  }
+  
+  .img-parallax:hover {
+    @apply scale-105;
+    transform: perspective(400px) translateX(calc(-1 * var(--_f))) rotateY(calc(-1 * var(--_a)));
+  }
+  

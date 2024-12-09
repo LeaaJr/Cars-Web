@@ -5,6 +5,7 @@ import SecGaleryTwo from "../Sections/SecGaleryTwo";
 import SectionOne from '../Sections/SectionOne';
 import SectionTwo from "../Sections/SectionTwo";
 import SectionThree from "../Sections/SectionThree";
+import ParallaxImages from "../Sections/ParallaxImages";
 
 const Home = () => {
 
@@ -96,6 +97,7 @@ const Home = () => {
         <SecGalery />
         <SectionThree />
         <SecGaleryTwo />
+        <ParallaxImages />
         </div>
 
     );

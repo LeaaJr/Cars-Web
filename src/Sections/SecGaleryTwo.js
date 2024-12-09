@@ -4,7 +4,7 @@ import ImgProd from "../components/ImgProd";
 const SecGaleryTwo = () => {
 
     return(
-        <section className="w-full mx-auto py-10 bg-gray-50 dark:bg-white-900 dark:text-white">    
+        <section className="w-full mx-auto py-10 bg-white dark:bg-white-900 dark:text-white">    
         <div className="w-full h-full flex flex-col items-center md:py-4 py-10">
 
           <div
