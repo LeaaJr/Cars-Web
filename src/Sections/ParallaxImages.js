@@ -3,7 +3,7 @@ import '../styles/Parallax.css'
 
 const ParallaxImages = () => {
   return (
-    <section className="flex flex-wrap justify-center items-center min-h-screen bg-[#ffff] gap-8">
+    <section className="pb-64 flex flex-wrap justify-center items-center min-h-screen bg-[#ffff] gap-8">
          <div className="flex flex-col items-rigth m-3">
       <img
             src="https://www.alravw.com/files/modelos/1724164439_extreme.png"

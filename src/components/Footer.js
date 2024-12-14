@@ -3,14 +3,13 @@ import React from "react";
 const Footer = () => {
   
     return (
-                    <div className="pt-64">
                 <footer className="pt-32  bg-white dark:bg-gray-900">
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                         <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
                             <a href="#" className="flex items-center">
                                 <img src="https://img.icons8.com/?size=256&id=hqQSDrWxzs1Q&format=png" className="h-9 me-3" alt="FlowBite Logo" />
-                                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Amarok</span>
                             </a>
                         </div>
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -88,7 +87,7 @@ const Footer = () => {
                     </div>
                     </div>
                 </footer>
-                </div>
+         
 
 
 
