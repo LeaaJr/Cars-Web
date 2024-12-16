@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -36,37 +37,37 @@ const NavBar = () => {
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-transparent-100 rounded-lg bg-transparent-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent-800 md:dark:bg-transparent-900 dark:border-transparent-700">
             <li>
-              <a
+              <Link
                 href="#"
                 className="block py-2 px-3 md:p-0 text-white bg-transparent-700 rounded md:bg-transparent md:text-transparent-700 md:dark:text-transparent-500"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block py-2 px-3 md:p-0 text-transparent-900 rounded hover:bg-transparent-100 md:hover:bg-transparent md:hover:text-transparent-700 md:dark:hover:text-transparent-500 dark:text-white dark:hover:bg-transparent-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-transparent-700"
               >
                 About
-              </a>
+                </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block py-2 px-3 md:p-0 text-transparent-900 rounded hover:bg-transparent-100 md:hover:bg-transparent md:hover:text-transparent-700 md:dark:hover:text-transparent-500 dark:text-white dark:hover:bg-transparent-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-transparent-700"
               >
                 Services
-              </a>
+                </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block py-2 px-3 md:p-0 text-transparent-900 rounded hover:bg-transparent-100 md:hover:bg-transparent md:hover:text-transparent-700 md:dark:hover:text-transparent-500 dark:text-white dark:hover:bg-transparent-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-transparent-700"
               >
                 Contact
-              </a>
+                </Link>
             </li>
           </ul>
         </div>
